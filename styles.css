@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+:root{
+	background-color: rgb(135, 206, 235);
+}
+.main{
+	padding: 10px;
+}
+.first-paragraph{
+	color: white;
+	background-color: black;
+}
+aricle p{
+	margin-box: 20px;
+	padding: 10px;
+}
+article p:nth-child(2){
+	color: initial;
+}
+article p:last-child{
+	color: red;
+}
+.ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.li{
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.i1{
+	background-color: white;
+	font-size: 22px;
+}
+.i2{
+	background-color: grey;
+}
+.i3{
+	background-color: pink;
+}
